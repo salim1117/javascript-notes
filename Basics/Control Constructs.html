@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Control Constructs</h2>
+
+<script>
+
+/*
+Interview Definition:
+
+Control Constructs are statements that
+control the flow of execution in a program.
+
+Types:
+1. Conditional Statements
+2. Loops
+3. Control Modifiers
+*/
+
+
+// Store age of user
+let age = 20;
+
+
+// Check age using if else
+if(age >= 18)
+{
+    document.write("Eligible To Vote");
+}
+else
+{
+    document.write("Not Eligible");
+}
+
+
+// Add line breaks
+document.write("<br><br>");
+
+
+// for loop from 1 to 5
+for(let i = 1; i <= 5; i++)
+{
+    document.write("For Loop: " + i + "<br>");
+}
+
+
+document.write("<br>");
+
+
+// while loop
+let count = 1;
+
+while(count <= 3)
+{
+    document.write(
+        "While Loop: " +
+        count +
+        "<br>"
+    );
+
+    count++;
+}
+
+
+document.write("<br>");
+
+
+// Array declaration
+let fruits =
+[
+    "Apple",
+    "Banana",
+    "Mango"
+];
+
+
+// for...of loop
+for(let fruit of fruits)
+{
+    document.write(
+        "Fruit: " +
+        fruit +
+        "<br>"
+    );
+}
+
+
+/*
+Interview Questions
+
+1. What are control constructs?
+
+2. What is the purpose of if statement?
+
+3. Difference between if and switch?
+
+4. What is a loop?
+
+5. Difference between for and while?
+
+6. Difference between while and do while?
+
+7. What is for...of used for?
+
+8. What is for...in used for?
+
+9. What is forEach()?
+
+10. Difference between break and continue?
+
+
+Quick Answers
+
+for...of -> Values of array
+
+for...in -> Keys of object
+
+break -> Exit loop
+
+continue -> Skip current iteration
+
+for -> Known iterations
+
+while -> Unknown iterations
+*/
+
+</script>
+
+</body>
+</html>

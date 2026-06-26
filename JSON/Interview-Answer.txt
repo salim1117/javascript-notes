@@ -1,0 +1,22 @@
+Real Interview Answer
+If interviewer asks:
+
+Why do we use JSON?
+JSON acts as a common language between different systems and 
+programming languages. Backend applications convert their objects
+ into JSON before sending data, and frontend applications parse JSON 
+ into native objects for processing.
+
+
+
+What is API?
+An API is a communication contract between client and server. 
+The client sends requests and the server returns responses, 
+usually in JSON format.
+
+
+
+What is API Gateway?
+An API Gateway is an entry point that receives client requests
+ and routes them to appropriate backend services while handling 
+ concerns such as authentication, authorization, logging, and rate limiting.

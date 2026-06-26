@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Popups</title>
+</head>
+<body>
+
+    <!-- Main heading displayed on webpage -->
+    <h1>JavaScript Popups Demo</h1>
+
+    <script>
+
+        /*
+        Interview Definition:
+
+        JavaScript Popups are built-in dialog boxes
+        used to interact with users.
+
+        Types:
+        1. alert()   -> Show information
+        2. confirm() -> Take confirmation
+        3. prompt()  -> Take input
+        */
+
+
+        // Display a warning message to the user
+        alert("Warning");
+
+
+        // Ask user for confirmation
+        // If user clicks OK -> returns true
+        // If user clicks Cancel -> returns false
+        let choice = confirm("Lock kiya jaye?");
+
+
+        // Display the user's choice on the webpage
+        document.write(
+            "User selected: " +
+            (choice ? "OK" : "Cancel")
+        );
+
+
+        // Add two line breaks for better output formatting
+        document.write("<br><br>");
+
+
+        // Ask user to enter their name
+        // Returns the entered value as a string
+        let name = prompt("Enter your name");
+
+
+        // Display the entered name on the webpage
+        document.write(
+            "User entered: " + name
+        );
+
+
+        /*
+        Interview Questions:
+
+        1. What is a popup in JavaScript?
+
+        2. What are the three types of popups?
+
+        3. What is the purpose of alert()?
+
+        4. What does confirm() return?
+
+        5. What does prompt() return?
+
+        6. What value is returned if Cancel is clicked in prompt()?
+
+        7. Does alert() return any value?
+
+        8. Which popup is used to take user input?
+
+        9. Which popup is used for confirmation?
+
+        10. Why is prompt() return value considered a string?
+
+
+        Interview Answers:
+
+        alert()
+        -> Displays a message with an OK button.
+        -> Returns nothing.
+
+        confirm()
+        -> Displays OK and Cancel buttons.
+        -> Returns true or false.
+
+        prompt()
+        -> Displays an input box.
+        -> Returns a string or null.
+        */
+
+    </script>
+
+</body>
+</html>

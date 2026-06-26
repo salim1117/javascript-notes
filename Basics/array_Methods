@@ -1,0 +1,74 @@
+/*
+ MAP
+Creates a new array by transforming each element.
+*/
+
+let arr = [1,2,3];
+let result = arr.map(num => num * num);
+console.log(result);
+
+
+
+/* filter()
+ Creates a new array containing 
+ elements that satisfy a condition.
+ */
+
+let arr1 = [1,2,3,4,5,6];
+let even = arr1.filter(num => num % 2 === 0);
+console.log(even);
+
+
+
+/*
+reduce()
+Reduces all elements into a single value.
+*/
+let arr2 = [1,2,3,4];
+let sum = arr2.reduce((acc,num) => acc + num,0);
+console.log(sum);
+
+
+
+/*
+concat()
+Combines arrays.
+*/
+let a = [1,2];
+let b = [3,4];
+let c = a.concat(b);
+console.log(c);
+
+/*join()
+Converts array into string.
+*/
+let words = ["Hello","World"];
+console.log(words.join("     "));
+
+
+/*
+Array Destructuring
+Extract array values into separate variables.
+*/
+let fruits = ["apple" , "Mango" ,"Banana" , "Melon"];
+let [first , second ] = fruits;
+console.log(first);
+console.log(second);
+
+
+/*
+reduce() is an array method that processes all elements
+ and reduces them into a single value using an accumulator
+ and a callback function.
+ */
+
+let m = [1,2,3,4];
+let newm = m.reduce((acc , num ) => acc * num , 1);
+console.log(newm);
+
+
+let marks = 20;
+if(marks<=17)
+    {
+alert("hello");
+}

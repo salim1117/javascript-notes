@@ -1,0 +1,32 @@
+// Function receives any number of values
+// REST PARAMETER collects all values into one array
+function add(...numbers) {
+
+    // Variable created to store total
+    let sum = 0;
+
+    // Loop used to visit every number inside the array
+    for (let num of numbers) {
+
+        // Add current number to total
+        sum = sum + num;
+    }
+
+    // Return final result
+    console.log(`sum of ${numbers} is ${sum}`);
+    return sum;
+    
+}
+
+// Array created to store numbers
+let values = [10, 20, 30, 40];
+
+// SPREAD OPERATOR opens the array
+// [10,20,30,40] becomes 10,20,30,40
+
+console.log(add(2,3,4));
+console.log(add(1,2));
+
+
+
+console.log(add(...values));

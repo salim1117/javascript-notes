@@ -7,4 +7,5 @@ console.log(name.toUpperCase());
  primitive string into a temporary String object when
   we access its properties or methods. After the operation,
    JavaScript converts it back to a primitive string.
+   
    */
